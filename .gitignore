@@ -1,0 +1,4 @@
+.DS_Store
+*.private.conf
+*.bak*
+node_modules/

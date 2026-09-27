@@ -1,0 +1,15 @@
+# blockAds-02 | RULE-SET | 2026-09-27
+# Policy supplied by the referring profile.
+URL-REGEX,"^https:\/\/a\.line\.me\/lass\/api\/v\d\/ads$"
+URL-REGEX,"^https:\/\/a\.line\.me\/oa\/v\d\/e$"
+URL-REGEX,"^https:\/\/a\.line\.me\/cs\/v\d\/oa$"
+URL-REGEX,"^https:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/"
+URL-REGEX,"^https:\/\/crs-event\.line\.me\/v\d\/imp"
+URL-REGEX,"^https:\/\/obs\.line-scdn\.net\/0h.+\/(o|m)\d+x\d+$"
+URL-REGEX,"^https:\/\/obs\.line-scdn\.net\/0hGH\d"
+URL-REGEX,"^https:\/\/obs\.line-scdn\.net\/0h.+\/\d+p\.mp4$"
+URL-REGEX,"^https:\/\/scdn\.line-apps\.com\/lan\/image\/line\/bannerImageEvent\/"
+URL-REGEX,"^https:\/\/scdn\.line-apps\.com\/lan\/document\/pageEvent\/line\/ios\/"
+URL-REGEX,"^https:\/\/sch\.line\.me\/api\/v\d\/ads$"
+URL-REGEX,"^https:\/\/uts-front\.line-apps\.com\/event$"
+URL-REGEX,"^https:\/\/uts-front\.line-apps\.com\/settings$"

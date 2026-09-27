@@ -1,0 +1,2 @@
+# Keep downloaded upstream snapshots byte-for-byte, including original whitespace.
+sources/*.upstream.* -whitespace

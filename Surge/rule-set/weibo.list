@@ -1,0 +1,4 @@
+# weibo | RULE-SET | 2026-09-27
+# Policy supplied by the referring profile.
+URL-REGEX,^https?:\/\/api\.weibo\.cn\/2\/(push\/active|client\/addlog_batch|ad\/preload)
+URL-REGEX,^https?:\/\/api-cloudim\.api\.weibo\.com\/v1\/log\/

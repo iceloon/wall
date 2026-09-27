@@ -1,0 +1,63 @@
+{
+  "sourceDate": "2026-09-27",
+  "repository": "https://github.com/iceloon/wall",
+  "sets": [
+    {
+      "file": "Surge/domain-set/weibo.domainset",
+      "type": "DOMAIN-SET",
+      "policy": "REJECT",
+      "count": 30
+    },
+    {
+      "file": "Surge/rule-set/weibo.list",
+      "type": "RULE-SET",
+      "policy": "REJECT",
+      "count": 2
+    },
+    {
+      "file": "Surge/domain-set/blockAds-01.domainset",
+      "type": "DOMAIN-SET",
+      "policy": "REJECT",
+      "count": 1389
+    },
+    {
+      "file": "Surge/rule-set/blockAds-01.list",
+      "type": "RULE-SET",
+      "policy": "REJECT",
+      "count": 95
+    },
+    {
+      "file": "Surge/rule-set/blockAds-02.list",
+      "type": "RULE-SET",
+      "policy": "REJECT-DROP",
+      "count": 13
+    },
+    {
+      "file": "Surge/domain-set/blockAds-03.domainset",
+      "type": "DOMAIN-SET",
+      "policy": "REJECT",
+      "count": 1284
+    },
+    {
+      "file": "Surge/rule-set/blockAds-03.list",
+      "type": "RULE-SET",
+      "policy": "REJECT",
+      "count": 109
+    }
+  ],
+  "inputs": {
+    "upstreamSha256": "d75a30e3410fccc4269c2749cdc430f2c6ef5b092bca1bc342279642f9918423",
+    "compatibilitySha256": "1de199a934028d57a8d85c4ac59bba87eb786f55d0ea7a788e2d2e79bb407597"
+  },
+  "weiboInputRules": 32,
+  "blockAdsInputRules": 2993,
+  "publicRuleReferences": [
+    "DOMAIN-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/domain-set/blockAds-01.domainset,REJECT",
+    "RULE-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/rule-set/blockAds-01.list,REJECT",
+    "RULE-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/rule-set/blockAds-02.list,REJECT-DROP",
+    "DOMAIN-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/domain-set/blockAds-03.domainset,REJECT",
+    "RULE-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/rule-set/blockAds-03.list,REJECT",
+    "DOMAIN-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/domain-set/weibo.domainset,REJECT",
+    "RULE-SET,https://raw.githubusercontent.com/iceloon/wall/main/Surge/rule-set/weibo.list,REJECT"
+  ]
+}
